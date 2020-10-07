@@ -13,11 +13,9 @@ public class Main {
                 else
                     return b;
             }
-            else
-            if (a<b && a<c)
+            else if (a<b && a<c)
                 return a;
-            else
-            if (b>c)
+            else if (b>c)
                 return c;
             else
                 return b;
