@@ -7,12 +7,13 @@ public class Main {
 
         public static int Min(int a,int b,int c)
         {
-            if (a<=b && a<=c)
+            if (a<=b && a<=c) {
                 return a;
-            else if (b>c)
-                    return c;
-                else
-                    return b;
+            }else if (b>c) {
+                return c;
+            }else {
+                return b;
+            }
         }
 
 
